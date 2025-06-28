@@ -71,17 +71,11 @@ const HeroSection = () => {
           {/* Hero Image */}
           <div className="relative animate-slide-in">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <div className="aspect-[4/3] bg-gradient-to-br from-oak to-walnut flex items-center justify-center">
-                <div className="text-center text-poplar p-8">
-                  <div className="w-20 h-20 bg-poplar/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <svg className="w-10 h-10 text-poplar" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                    </svg>
-                  </div>
-                  <h3 className="text-2xl font-playfair mb-2">Placeholder — Hero Image</h3>
-                  <p className="text-poplar/80">CNC Machine in Action or Basket Weaving Process</p>
-                </div>
-              </div>
+              <img 
+                src="/lovable-uploads/59b76e03-ef7c-433c-b24d-b736b3f85e7c.png"
+                alt="TnKr Workshop - Handcrafted wooden cutting boards being held in workshop"
+                className="w-full h-full object-cover aspect-[4/3]"
+              />
             </div>
             
             {/* Floating Elements */}
