@@ -14,8 +14,7 @@ const AboutSection = () => {
             <span className="text-maker-green block">Built with Tech.</span>
           </h2>
           <p className="text-xl text-slate-700 max-w-3xl mx-auto leading-relaxed">
-            From military service to master craftsman, our founder discovered the perfect blend 
-            of time-honored woodworking traditions and cutting-edge digital fabrication.
+            TnKr Workshop started with a simple idea: combine lifelong woodworking skills with modern digital tools to help a loved one weave baskets.
           </p>
         </div>
 
@@ -24,20 +23,10 @@ const AboutSection = () => {
           <div className="space-y-6">
             <div className="prose prose-lg max-w-none">
               <p className="text-slate-700 leading-relaxed">
-                TnKr Workshop was born from a deep appreciation for both traditional craftsmanship 
-                and modern innovation. Our founder, a proud veteran, was inspired by the intricate 
-                art of basket weaving and saw an opportunity to preserve this ancient craft through 
-                modern technology.
+                Founded by a disabled U.S. Veteran with over 30 years of IT experience, and inspired by family roots in woodworking, we're all about mixing old-school craft with cutting-edge CNC and 3D printing.
               </p>
               <p className="text-slate-700 leading-relaxed">
-                What started as a fascination with basket weaving evolved into a mission: creating 
-                premium wooden and PLA basket bases that honor traditional techniques while 
-                leveraging CNC precision and 3D printing capabilities.
-              </p>
-              <p className="text-slate-700 leading-relaxed">
-                Today, we're a family-run operation that takes pride in every piece we create, 
-                from our signature basket bases to our stunning hardwood cutting boards with 
-                contrasting wood inlays.
+                Every piece we make carries our family's pride and a touch of maker magic — because we believe beautiful, functional designs should feel as personal as they do practical.
               </p>
             </div>
 
