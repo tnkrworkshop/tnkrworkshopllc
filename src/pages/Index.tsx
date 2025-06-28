@@ -18,7 +18,7 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <div className="w-10 h-10 bg-oak rounded-lg flex items-center justify-center">
-                <span className="font-pacifico text-walnut text-lg">T</span>
+                <span className="font-pacifico text-maker-blue text-lg">T</span>
               </div>
               <div>
                 <h1 className="font-pacifico text-xl text-oak">TnKr Workshop</h1>
@@ -48,11 +48,11 @@ const Index = () => {
       <section className="py-8 bg-stone/10">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap items-center justify-center gap-6">
-            <Badge variant="secondary" className="bg-walnut text-poplar px-4 py-2">
+            <Badge variant="secondary" className="bg-maker-blue text-poplar px-4 py-2">
               <Award className="w-4 h-4 mr-2" />
               Veteran Owned
             </Badge>
-            <Badge variant="secondary" className="bg-maker-blue text-poplar px-4 py-2">
+            <Badge variant="secondary" className="bg-slate-600 text-poplar px-4 py-2">
               <Heart className="w-4 h-4 mr-2" />
               Family Run
             </Badge>
@@ -74,7 +74,7 @@ const Index = () => {
       <TestimonialCarousel />
 
       {/* Final CTA Section */}
-      <section className="py-16 bg-walnut text-poplar">
+      <section className="py-16 bg-maker-blue text-poplar">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-playfair mb-4">
             Ready to Start Your Next Project?
@@ -87,7 +87,7 @@ const Index = () => {
               <ShoppingCart className="w-5 h-5 mr-2" />
               Shop Our Amazon Store
             </Button>
-            <Button size="lg" variant="outline" className="border-poplar text-poplar hover:bg-poplar hover:text-walnut">
+            <Button size="lg" variant="outline" className="border-poplar text-poplar hover:bg-poplar hover:text-maker-blue">
               Request Custom Order
               <ChevronRight className="w-5 h-5 ml-2" />
             </Button>

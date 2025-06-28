@@ -8,7 +8,7 @@ const HeroSection = () => {
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
-          backgroundImage: 'radial-gradient(circle, #5C3A21 1px, transparent 1px)',
+          backgroundImage: 'radial-gradient(circle, #3A6EA5 1px, transparent 1px)',
           backgroundSize: '60px 60px'
         }}></div>
       </div>
@@ -18,21 +18,21 @@ const HeroSection = () => {
           {/* Hero Content */}
           <div className="text-center lg:text-left animate-fade-in">
             <div className="mb-4">
-              <span className="inline-block bg-walnut text-poplar px-4 py-2 rounded-full text-sm font-medium mb-4">
+              <span className="inline-block bg-maker-blue text-poplar px-4 py-2 rounded-full text-sm font-medium mb-4">
                 Veteran Owned • Family Run • Premium Quality
               </span>
             </div>
             
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-playfair font-bold text-walnut mb-6 leading-tight">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-playfair font-bold text-maker-blue mb-6 leading-tight">
               Craft Meets
               <span className="text-cherry block font-pacifico text-4xl md:text-5xl lg:text-6xl mt-2">
                 Code
               </span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-walnut/80 mb-8 leading-relaxed">
+            <p className="text-xl md:text-2xl text-slate-700 mb-8 leading-relaxed">
               Where traditional woodworking meets modern precision. 
-              <span className="block mt-2 font-medium text-walnut">
+              <span className="block mt-2 font-medium text-maker-blue">
                 Handcrafted basket bases and cutting boards, perfected with digital fabrication.
               </span>
             </p>
@@ -45,14 +45,14 @@ const HeroSection = () => {
               <Button 
                 size="lg" 
                 variant="outline" 
-                className="border-2 border-walnut text-walnut hover:bg-walnut hover:text-poplar text-lg px-8 py-3"
+                className="border-2 border-maker-blue text-maker-blue hover:bg-maker-blue hover:text-poplar text-lg px-8 py-3"
               >
                 See Our Process
                 <ChevronRight className="w-5 h-5 ml-2" />
               </Button>
             </div>
             
-            <div className="mt-8 flex items-center justify-center lg:justify-start gap-6 text-sm text-walnut/70">
+            <div className="mt-8 flex items-center justify-center lg:justify-start gap-6 text-sm text-slate-600">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-maker-green rounded-full"></div>
                 <span>CNC Precision</span>

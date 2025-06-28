@@ -15,7 +15,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer id="contact" className="bg-walnut text-poplar">
+    <footer id="contact" className="bg-maker-blue text-poplar">
       {/* Main Footer Content */}
       <div className="container mx-auto px-4 py-16">
         <div className="grid lg:grid-cols-4 gap-8">
@@ -23,7 +23,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-12 h-12 bg-oak rounded-lg flex items-center justify-center">
-                <span className="font-pacifico text-walnut text-xl">T</span>
+                <span className="font-pacifico text-maker-blue text-xl">T</span>
               </div>
               <div>
                 <h3 className="font-pacifico text-2xl text-oak">TnKr Workshop</h3>
@@ -36,7 +36,7 @@ const Footer = () => {
             </p>
             <div className="flex flex-wrap gap-2">
               <Badge className="bg-cherry text-poplar">Veteran Owned</Badge>
-              <Badge className="bg-maker-blue text-poplar">Family Run</Badge>
+              <Badge className="bg-slate-600 text-poplar">Family Run</Badge>
             </div>
           </div>
 
