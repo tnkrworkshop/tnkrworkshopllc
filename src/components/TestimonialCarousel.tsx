@@ -70,7 +70,7 @@ const TestimonialCarousel = () => {
                 </div>
                 
                 <div className="relative mb-4">
-                  <Quote className="w-6 h-6 text-cherry/30 absolute -top-2 -left-1" />
+                  <Quote className="w-6 h-6 text-maker-green/30 absolute -top-2 -left-1" />
                   <p className="text-slate-700 pl-6 leading-relaxed">
                     {testimonial.text}
                   </p>
@@ -96,7 +96,7 @@ const TestimonialCarousel = () => {
         <div className="mt-16 text-center">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="text-3xl font-playfair text-cherry mb-2">500+</div>
+              <div className="text-3xl font-playfair text-maker-green mb-2">500+</div>
               <p className="text-slate-700">Happy Customers</p>
             </div>
             <div className="text-center">

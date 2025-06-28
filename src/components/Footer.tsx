@@ -35,7 +35,7 @@ const Footer = () => {
               basket bases and cutting boards with modern precision.
             </p>
             <div className="flex flex-wrap gap-2">
-              <Badge className="bg-cherry text-poplar">Veteran Owned</Badge>
+              <Badge className="bg-maker-green text-poplar">Veteran Owned</Badge>
               <Badge className="bg-slate-600 text-poplar">Family Run</Badge>
             </div>
           </div>
@@ -61,7 +61,7 @@ const Footer = () => {
               <li><a href="#" className="text-poplar/80 hover:text-oak transition-colors">Hardwood Cutting Boards</a></li>
               <li><a href="#" className="text-poplar/80 hover:text-oak transition-colors">Custom Designs</a></li>
               <li>
-                <Button className="bg-cherry hover:bg-cherry/90 text-poplar mt-2">
+                <Button className="bg-maker-green hover:bg-maker-green/90 text-poplar mt-2">
                   <ShoppingCart className="w-4 h-4 mr-2" />
                   Shop on Amazon
                 </Button>

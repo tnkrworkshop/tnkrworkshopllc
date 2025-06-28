@@ -25,7 +25,7 @@ const HeroSection = () => {
             
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-playfair font-bold text-maker-blue mb-6 leading-tight">
               Craft Meets
-              <span className="text-cherry block font-pacifico text-4xl md:text-5xl lg:text-6xl mt-2">
+              <span className="text-maker-green block font-pacifico text-4xl md:text-5xl lg:text-6xl mt-2">
                 Code
               </span>
             </h1>
@@ -38,7 +38,7 @@ const HeroSection = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button size="lg" className="bg-cherry hover:bg-cherry/90 text-poplar text-lg px-8 py-3">
+              <Button size="lg" className="bg-maker-green hover:bg-maker-green/90 text-poplar text-lg px-8 py-3">
                 <ShoppingCart className="w-5 h-5 mr-2" />
                 Shop on Amazon
               </Button>
@@ -62,7 +62,7 @@ const HeroSection = () => {
                 <span>3D Printing</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-cherry rounded-full"></div>
+                <div className="w-2 h-2 bg-oak rounded-full"></div>
                 <span>Traditional Craft</span>
               </div>
             </div>
@@ -79,7 +79,7 @@ const HeroSection = () => {
             </div>
             
             {/* Floating Elements */}
-            <div className="absolute -top-4 -right-4 w-16 h-16 bg-cherry rounded-full flex items-center justify-center shadow-lg">
+            <div className="absolute -top-4 -right-4 w-16 h-16 bg-maker-green rounded-full flex items-center justify-center shadow-lg">
               <span className="text-poplar font-bold">★</span>
             </div>
             <div className="absolute -bottom-4 -left-4 w-12 h-12 bg-maker-blue rounded-full flex items-center justify-center shadow-lg">

@@ -11,7 +11,7 @@ const AboutSection = () => {
           <Badge className="bg-maker-blue text-poplar mb-4">Our Story</Badge>
           <h2 className="text-4xl md:text-5xl font-playfair text-maker-blue mb-6">
             Rooted in Tradition.
-            <span className="text-cherry block">Built with Tech.</span>
+            <span className="text-maker-green block">Built with Tech.</span>
           </h2>
           <p className="text-xl text-slate-700 max-w-3xl mx-auto leading-relaxed">
             From military service to master craftsman, our founder discovered the perfect blend 
@@ -50,7 +50,7 @@ const AboutSection = () => {
                 <Users className="w-4 h-4 mr-2" />
                 Family Business
               </Badge>
-              <Badge className="bg-cherry text-poplar">
+              <Badge className="bg-slate-600 text-poplar">
                 <Heart className="w-4 h-4 mr-2" />
                 Handcrafted Quality
               </Badge>
@@ -71,7 +71,7 @@ const AboutSection = () => {
             
             {/* Decorative elements */}
             <div className="absolute -top-6 -left-6 w-20 h-20 bg-oak/20 rounded-full blur-xl"></div>
-            <div className="absolute -bottom-6 -right-6 w-16 h-16 bg-cherry/20 rounded-full blur-xl"></div>
+            <div className="absolute -bottom-6 -right-6 w-16 h-16 bg-maker-green/20 rounded-full blur-xl"></div>
           </div>
         </div>
 
@@ -92,7 +92,7 @@ const AboutSection = () => {
 
           <Card className="bg-white/50 border-maker-blue/20 hover:shadow-lg transition-shadow">
             <CardContent className="p-6 text-center">
-              <div className="w-16 h-16 bg-cherry rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-maker-green rounded-full flex items-center justify-center mx-auto mb-4">
                 <Heart className="w-8 h-8 text-poplar" />
               </div>
               <h3 className="text-xl font-playfair text-maker-blue mb-2">Family Values</h3>
