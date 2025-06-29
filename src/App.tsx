@@ -14,7 +14,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename={process.env.NODE_ENV === 'production' ? '/tnkrworkshopllc' : ''}>
+      <BrowserRouter basename={import.meta.env.PROD ? '/tnkrworkshopllc' : ''}>
         <Routes>
           <Route path="/" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
