@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Badge } from "@/components/ui/badge";
@@ -73,11 +74,11 @@ const Footer = () => {
             <div className="space-y-3 mb-6">
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-oak" />
-                <span className="text-poplar/80">info@tnkrworkshop.com</span>
+                <span className="text-poplar/80">tnkrworkshopllc@gmail.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-oak" />
-                <span className="text-poplar/80">(555) 123-TNKR</span>
+                <span className="text-poplar/80">(940) 242-9515</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="w-5 h-5 text-oak" />
