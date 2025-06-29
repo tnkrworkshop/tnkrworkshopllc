@@ -16,9 +16,11 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-oak rounded-lg flex items-center justify-center">
-                <span className="font-pacifico text-maker-blue text-lg">T</span>
-              </div>
+              <img 
+                src="/lovable-uploads/78212c79-c40d-4ed7-ad46-b23fe483c60e.png" 
+                alt="TnKr Workshop Logo" 
+                className="w-10 h-10 object-contain"
+              />
               <div>
                 <h1 className="font-pacifico text-xl text-oak">TnKr Workshop</h1>
                 <p className="text-xs text-poplar/80">Craft Meets Code</p>

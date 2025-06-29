@@ -22,9 +22,11 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-12 h-12 bg-oak rounded-lg flex items-center justify-center">
-                <span className="font-pacifico text-maker-blue text-xl">T</span>
-              </div>
+              <img 
+                src="/lovable-uploads/78212c79-c40d-4ed7-ad46-b23fe483c60e.png" 
+                alt="TnKr Workshop Logo" 
+                className="w-12 h-12 object-contain"
+              />
               <div>
                 <h3 className="font-pacifico text-2xl text-oak">TnKr Workshop</h3>
                 <p className="text-sm text-poplar/80">Craft Meets Code</p>
