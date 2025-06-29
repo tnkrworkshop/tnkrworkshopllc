@@ -47,7 +47,7 @@ const ProductShowcase = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid lg:grid-cols-3 gap-8">
           {products.map((product, index) => (
             <Card key={product.id} className="bg-white/80 hover:bg-white transition-all duration-300 hover:shadow-xl border-walnut/10 group">
               <CardContent className="p-8">
@@ -93,57 +93,6 @@ const ProductShowcase = () => {
               </CardContent>
             </Card>
           ))}
-        </div>
-
-        {/* Process Section */}
-        <div className="bg-walnut rounded-3xl p-8 md:p-12 text-poplar">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h3 className="text-3xl md:text-4xl font-playfair mb-6">
-                See Our Process
-              </h3>
-              <p className="text-xl mb-6 text-poplar/90 leading-relaxed">
-                From design to finish, watch how we blend traditional woodworking 
-                with cutting-edge CNC and 3D printing technology.
-              </p>
-              <div className="space-y-4">
-                <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 bg-oak rounded-full flex items-center justify-center">
-                    <span className="text-walnut font-bold text-sm">1</span>
-                  </div>
-                  <span>Design & CAD Modeling</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 bg-oak rounded-full flex items-center justify-center">
-                    <span className="text-walnut font-bold text-sm">2</span>
-                  </div>
-                  <span>CNC Machining & 3D Printing</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 bg-oak rounded-full flex items-center justify-center">
-                    <span className="text-walnut font-bold text-sm">3</span>
-                  </div>
-                  <span>Hand Finishing & Quality Control</span>
-                </div>
-              </div>
-              <Button variant="outline" className="mt-6 border-poplar text-poplar hover:bg-poplar hover:text-walnut">
-                Watch Behind-the-Scenes
-                <ChevronRight className="w-4 h-4 ml-2" />
-              </Button>
-            </div>
-            
-            <div className="aspect-video bg-poplar/10 rounded-2xl flex items-center justify-center">
-              <div className="text-center p-8">
-                <div className="w-20 h-20 bg-poplar/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-10 h-10 text-poplar" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M8 5v14l11-7z"/>
-                  </svg>
-                </div>
-                <h4 className="text-xl font-playfair mb-2">Placeholder — Process Video</h4>
-                <p className="text-poplar/80">Behind-the-Scenes Workshop Tour</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
