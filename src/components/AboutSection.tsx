@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Users, Award, Zap, Heart } from "lucide-react";
@@ -46,16 +45,14 @@ const AboutSection = () => {
             </div>
           </div>
 
-          {/* Image Placeholder */}
+          {/* Workshop Photo */}
           <div className="relative">
-            <div className="aspect-[4/3] bg-gradient-to-br from-oak/30 to-maker-blue/20 rounded-2xl flex items-center justify-center shadow-xl">
-              <div className="text-center text-maker-blue p-8">
-                <div className="w-24 h-24 bg-maker-blue/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Users className="w-12 h-12 text-maker-blue" />
-                </div>
-                <h3 className="text-2xl font-playfair mb-2">Placeholder — Workshop Photo</h3>
-                <p className="text-maker-blue/70">Founder and Family in Workshop</p>
-              </div>
+            <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
+              <img 
+                src="/lovable-uploads/f4b66418-daf5-4b6a-95c5-a988e3950557.png"
+                alt="TnKr Workshop - Founder working with CNC machine in workshop"
+                className="w-full h-full object-cover"
+              />
             </div>
             
             {/* Decorative elements */}
