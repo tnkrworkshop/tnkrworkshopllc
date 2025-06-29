@@ -6,7 +6,6 @@ import { ChevronRight, Star, Heart, Award, ShoppingCart } from "lucide-react";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import ProductShowcase from "@/components/ProductShowcase";
-import TestimonialCarousel from "@/components/TestimonialCarousel";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -29,7 +28,6 @@ const Index = () => {
             <div className="hidden md:flex items-center space-x-6">
               <a href="#about" className="hover:text-oak transition-colors">About</a>
               <a href="#products" className="hover:text-oak transition-colors">Products</a>
-              <a href="#testimonials" className="hover:text-oak transition-colors">Reviews</a>
               <a href="#contact" className="hover:text-oak transition-colors">Contact</a>
             </div>
 
@@ -69,9 +67,6 @@ const Index = () => {
 
       {/* Product Showcase */}
       <ProductShowcase />
-
-      {/* Testimonial Carousel */}
-      <TestimonialCarousel />
 
       {/* Final CTA Section */}
       <section className="py-16 bg-maker-blue text-poplar">
