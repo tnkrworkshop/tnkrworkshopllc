@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Badge } from "@/components/ui/badge";
@@ -31,8 +30,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-poplar/90 mb-6 leading-relaxed">
-              Veteran-owned, family-run woodworking shop specializing in premium 
-              basket bases and cutting boards with modern precision.
+              TnKr Workshop is a veteran-owned, family-run business proudly crafting unique basket bases, cutting boards, and custom wood creations. We blend traditional woodworking with digital precision to deliver pieces you'll be proud to use and share.
             </p>
             <div className="flex flex-wrap gap-2">
               <Badge className="bg-maker-green text-poplar">Veteran Owned</Badge>
