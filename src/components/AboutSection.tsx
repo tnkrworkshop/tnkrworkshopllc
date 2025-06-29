@@ -22,7 +22,7 @@ const AboutSection = () => {
           <div className="space-y-6">
             <div className="prose prose-lg max-w-none">
               <p className="text-slate-700 leading-relaxed">
-                Founded by a disabled U.S. Veteran with over 30 years of IT experience, and inspired by family roots in woodworking, we're all about mixing old-school craft with cutting-edge CNC and 3D printing.
+                Founded by a U.S. Veteran with over 30 years of IT experience, and inspired by family roots in woodworking, we're all about mixing old-school craft with cutting-edge CNC and 3D printing.
               </p>
               <p className="text-slate-700 leading-relaxed">
                 Every piece we make carries our family's pride and a touch of maker magic — because we believe beautiful, functional designs should feel as personal as they do practical.
