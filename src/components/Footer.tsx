@@ -61,7 +61,10 @@ const Footer = () => {
               <li><a href="#" className="text-poplar/80 hover:text-oak transition-colors">Hardwood Cutting Boards</a></li>
               <li><a href="#" className="text-poplar/80 hover:text-oak transition-colors">Custom Designs</a></li>
               <li>
-                <Button className="bg-maker-green hover:bg-maker-green/90 text-poplar mt-2">
+                <Button 
+                  className="bg-maker-green hover:bg-maker-green/90 text-poplar mt-2"
+                  onClick={() => window.open('https://amazon.com/shops/tnkrworkshop', '_blank')}
+                >
                   <ShoppingCart className="w-4 h-4 mr-2" />
                   Shop on Amazon
                 </Button>

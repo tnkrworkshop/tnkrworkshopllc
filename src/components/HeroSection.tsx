@@ -38,7 +38,11 @@ const HeroSection = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button size="lg" className="bg-maker-green hover:bg-maker-green/90 text-poplar text-lg px-8 py-3">
+              <Button 
+                size="lg" 
+                className="bg-maker-green hover:bg-maker-green/90 text-poplar text-lg px-8 py-3"
+                onClick={() => window.open('https://amazon.com/shops/tnkrworkshop', '_blank')}
+              >
                 <ShoppingCart className="w-5 h-5 mr-2" />
                 Shop on Amazon
               </Button>

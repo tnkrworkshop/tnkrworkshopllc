@@ -33,7 +33,10 @@ const Index = () => {
               <a href="#contact" className="hover:text-oak transition-colors">Contact</a>
             </div>
 
-            <Button className="bg-maker-green hover:bg-maker-green/90 text-poplar">
+            <Button 
+              className="bg-maker-green hover:bg-maker-green/90 text-poplar"
+              onClick={() => window.open('https://amazon.com/shops/tnkrworkshop', '_blank')}
+            >
               <ShoppingCart className="w-4 h-4 mr-2" />
               Shop on Amazon
             </Button>
@@ -80,7 +83,11 @@ const Index = () => {
             Discover our full collection of handcrafted basket bases and cutting boards
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-maker-green hover:bg-maker-green/90 text-poplar">
+            <Button 
+              size="lg" 
+              className="bg-maker-green hover:bg-maker-green/90 text-poplar"
+              onClick={() => window.open('https://amazon.com/shops/tnkrworkshop', '_blank')}
+            >
               <ShoppingCart className="w-5 h-5 mr-2" />
               Shop Our Amazon Store
             </Button>

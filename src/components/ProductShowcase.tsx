@@ -81,7 +81,10 @@ const ProductShowcase = () => {
 
                 {/* Actions */}
                 <div className="space-y-3">
-                  <Button className="w-full bg-cherry hover:bg-cherry/90 text-poplar group-hover:scale-105 transition-transform">
+                  <Button 
+                    className="w-full bg-cherry hover:bg-cherry/90 text-poplar group-hover:scale-105 transition-transform"
+                    onClick={() => window.open('https://amazon.com/shops/tnkrworkshop', '_blank')}
+                  >
                     <ShoppingCart className="w-4 h-4 mr-2" />
                     Shop on Amazon
                   </Button>
