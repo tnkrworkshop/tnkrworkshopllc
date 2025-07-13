@@ -6,12 +6,12 @@ import { Mail, Phone, MapPin, ShoppingCart } from "lucide-react";
 
 const Footer = () => {
   const socialLinks = [
-    { platform: "Facebook", handle: "@tnkrworkshopllc", url: "#" },
-    { platform: "Instagram", handle: "@tnkrworkshopllc", url: "#" },
-    { platform: "Pinterest", handle: "@tnkrworkshopllc", url: "#" },
-    { platform: "YouTube", handle: "@tnkrworkshopllc", url: "#" },
-    { platform: "X (Twitter)", handle: "@tnkrworkshopllc", url: "#" },
-    { platform: "TikTok", handle: "@tnkrworkshopllc", url: "#" }
+    { platform: "Facebook", handle: "@tnkrworkshopllc", url: "https://facebook.com/tnkrworkshopllc" },
+    { platform: "Instagram", handle: "@tnkrworkshopllc", url: "https://instagram.com/tnkrworkshopllc" },
+    { platform: "Pinterest", handle: "@tnkrworkshopllc", url: "https://pinterest.com/tnkrworkshopllc" },
+    { platform: "YouTube", handle: "@tnkrworkshopllc", url: "https://youtube.com/@tnkrworkshopllc" },
+    { platform: "X (Twitter)", handle: "@tnkrworkshopllc", url: "https://twitter.com/tnkrworkshopllc" },
+    { platform: "TikTok", handle: "@tnkrworkshopllc", url: "https://tiktok.com/@tnkrworkshopllc" }
   ];
 
   return (
