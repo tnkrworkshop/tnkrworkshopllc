@@ -9,6 +9,8 @@ import ProductShowcase from "@/components/ProductShowcase";
 import Footer from "@/components/Footer";
 
 const Index = () => {
+  console.log('Index component rendering...');
+  
   return (
     <div className="min-h-screen bg-poplar">
       {/* Navigation */}
