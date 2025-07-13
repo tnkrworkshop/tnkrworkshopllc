@@ -129,10 +129,8 @@ export default {
 					800: '#756C54',
 					900: '#4F4A39'
 				},
-				maker: {
-					blue: '#3A6EA5',
-					green: '#6B8E23'
-				}
+				'maker-blue': '#3A6EA5',
+				'maker-green': '#6B8E23'
 			},
 			fontFamily: {
 				'playfair': ['Playfair Display', 'serif'],
