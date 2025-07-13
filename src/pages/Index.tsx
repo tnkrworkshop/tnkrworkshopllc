@@ -17,7 +17,7 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <img 
-                src="/lovable-uploads/78212c79-c40d-4ed7-ad46-b23fe483c60e.png" 
+                src={`${import.meta.env.BASE_URL}lovable-uploads/78212c79-c40d-4ed7-ad46-b23fe483c60e.png`}
                 alt="TnKr Workshop Logo" 
                 className="w-10 h-10 object-contain"
               />

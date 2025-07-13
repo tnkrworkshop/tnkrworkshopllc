@@ -23,7 +23,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
               <img 
-                src="/lovable-uploads/78212c79-c40d-4ed7-ad46-b23fe483c60e.png" 
+                src={`${import.meta.env.BASE_URL}lovable-uploads/78212c79-c40d-4ed7-ad46-b23fe483c60e.png`}
                 alt="TnKr Workshop Logo" 
                 className="w-12 h-12 object-contain"
               />

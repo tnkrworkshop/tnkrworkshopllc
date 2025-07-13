@@ -49,7 +49,7 @@ const AboutSection = () => {
           <div className="relative">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
               <img 
-                src="/lovable-uploads/f4b66418-daf5-4b6a-95c5-a988e3950557.png"
+                src={`${import.meta.env.BASE_URL}lovable-uploads/f4b66418-daf5-4b6a-95c5-a988e3950557.png`}
                 alt="TnKr Workshop - Founder working with CNC machine in workshop"
                 className="w-full h-full object-cover"
               />
