@@ -19,8 +19,8 @@ const Footer = () => {
       {/* Main Footer Content */}
       <div className="container mx-auto px-4 py-2">
         {/* Brand Section - Now at top */}
-        <div className="mb-12">
-          <div className="flex items-start">
+        <div className="mb-12 text-center">
+          <div className="flex justify-center items-start">
             <img 
               src={`${import.meta.env.BASE_URL}lovable-uploads/20e3aa72-c1ad-4d05-bf40-4b3d3c9e5cd7.png`}
               alt="TnKr Workshop Logo" 
