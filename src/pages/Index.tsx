@@ -89,10 +89,6 @@ const Index = () => {
               <ShoppingCart className="w-5 h-5 mr-2" />
               Shop Now
             </Button>
-            <Button size="lg" variant="outline" className="border-poplar text-poplar hover:bg-poplar hover:text-maker-blue">
-              Request Custom Order
-              <ChevronRight className="w-5 h-5 ml-2" />
-            </Button>
           </div>
         </div>
       </section>

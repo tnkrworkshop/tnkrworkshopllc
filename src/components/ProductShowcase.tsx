@@ -80,17 +80,13 @@ const ProductShowcase = () => {
                 </div>
 
                 {/* Actions */}
-                <div className="space-y-3">
+                <div>
                   <Button 
                     className="w-full bg-cherry hover:bg-cherry/90 text-poplar group-hover:scale-105 transition-transform"
                     onClick={() => window.open('https://my.stlflix.com/s/tnkrworkshopllc/', '_blank')}
                   >
                     <ShoppingCart className="w-4 h-4 mr-2" />
                     Shop Now
-                  </Button>
-                  <Button variant="outline" className="w-full border-walnut text-walnut hover:bg-walnut hover:text-poplar">
-                    Request Custom Order
-                    <ChevronRight className="w-4 h-4 ml-2" />
                   </Button>
                 </div>
               </CardContent>
