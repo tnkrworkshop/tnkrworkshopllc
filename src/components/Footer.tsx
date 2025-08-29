@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-8 justify-center">
+        <div className="grid lg:grid-cols-3 gap-8 justify-items-center">
           {/* Quick Links */}
           <div>
             <h4 className="font-playfair text-xl mb-4">Quick Links</h4>
