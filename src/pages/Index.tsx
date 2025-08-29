@@ -37,10 +37,10 @@ const Index = () => {
 
             <Button 
               className="bg-maker-green hover:bg-maker-green/90 text-poplar"
-              onClick={() => window.open('https://amazon.com/shops/tnkrworkshop', '_blank')}
+              onClick={() => window.open('https://my.stlflix.com/s/tnkrworkshopllc/', '_blank')}
             >
               <ShoppingCart className="w-4 h-4 mr-2" />
-              Shop on Amazon
+              Shop Now
             </Button>
           </div>
         </div>
@@ -88,10 +88,10 @@ const Index = () => {
             <Button 
               size="lg" 
               className="bg-maker-green hover:bg-maker-green/90 text-poplar"
-              onClick={() => window.open('https://amazon.com/shops/tnkrworkshop', '_blank')}
+              onClick={() => window.open('https://my.stlflix.com/s/tnkrworkshopllc/', '_blank')}
             >
               <ShoppingCart className="w-5 h-5 mr-2" />
-              Shop Our Amazon Store
+              Shop Now
             </Button>
             <Button size="lg" variant="outline" className="border-poplar text-poplar hover:bg-poplar hover:text-maker-blue">
               Request Custom Order

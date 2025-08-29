@@ -41,10 +41,10 @@ const HeroSection = () => {
               <Button 
                 size="lg" 
                 className="bg-maker-green hover:bg-maker-green/90 text-poplar text-lg px-8 py-3"
-                onClick={() => window.open('https://amazon.com/shops/tnkrworkshop', '_blank')}
+                onClick={() => window.open('https://my.stlflix.com/s/tnkrworkshopllc/', '_blank')}
               >
                 <ShoppingCart className="w-5 h-5 mr-2" />
-                Shop on Amazon
+                Shop Now
               </Button>
               <Button 
                 size="lg" 

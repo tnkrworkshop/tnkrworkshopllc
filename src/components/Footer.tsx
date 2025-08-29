@@ -63,10 +63,10 @@ const Footer = () => {
               <li>
                 <Button 
                   className="bg-maker-green hover:bg-maker-green/90 text-poplar mt-2"
-                  onClick={() => window.open('https://amazon.com/shops/tnkrworkshop', '_blank')}
+                  onClick={() => window.open('https://my.stlflix.com/s/tnkrworkshopllc/', '_blank')}
                 >
                   <ShoppingCart className="w-4 h-4 mr-2" />
-                  Shop on Amazon
+                  Shop Now
                 </Button>
               </li>
             </ul>
