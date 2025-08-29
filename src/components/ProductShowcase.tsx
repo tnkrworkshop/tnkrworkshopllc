@@ -24,7 +24,7 @@ const ProductShowcase = () => {
     },
     {
       id: 3,
-      title: "Premium Hardwood Home Decor",
+      title: "Laser-Engraved Home Decor",
       description: "Stunning home decor pieces featuring contrasting wood inlays, premium finishes, and exceptional durability.",
       features: ["Premium Finish", "Contrasting Inlays", "Premium Woods", "Custom Designs"],
       icon: Scissors,
