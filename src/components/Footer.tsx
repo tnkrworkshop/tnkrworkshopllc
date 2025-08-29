@@ -95,6 +95,8 @@ const Footer = () => {
               <a 
                 key={social.platform}
                 href={social.url}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-sm text-poplar/70 hover:text-oak transition-colors"
               >
                 {social.platform}
