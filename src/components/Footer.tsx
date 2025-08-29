@@ -17,11 +17,11 @@ const Footer = () => {
   return (
     <footer id="contact" className="bg-maker-blue text-poplar">
       {/* Main Footer Content */}
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-2">
         <div className="grid lg:grid-cols-4 gap-8">
           {/* Brand Column */}
           <div className="lg:col-span-1">
-            <div className="flex items-center mb-2">
+            <div className="flex items-center">
               <img 
                 src={`${import.meta.env.BASE_URL}lovable-uploads/20e3aa72-c1ad-4d05-bf40-4b3d3c9e5cd7.png`}
                 alt="TnKr Workshop Logo" 
