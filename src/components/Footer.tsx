@@ -18,25 +18,25 @@ const Footer = () => {
     <footer id="contact" className="bg-maker-blue text-poplar">
       {/* Main Footer Content */}
       <div className="container mx-auto px-4 py-2">
-        <div className="grid lg:grid-cols-4 gap-8">
-          {/* Brand Column */}
-          <div className="lg:col-span-1">
-            <div className="flex items-start">
-              <img 
-                src={`${import.meta.env.BASE_URL}lovable-uploads/20e3aa72-c1ad-4d05-bf40-4b3d3c9e5cd7.png`}
-                alt="TnKr Workshop Logo" 
-                className="w-[200px] h-[200px] object-contain"
-              />
-            </div>
-            <p className="text-poplar/90 mb-6 leading-relaxed">
-              TnKr Workshop is a veteran-owned, family-run business proudly crafting unique home decor and custom wood creations. We blend traditional woodworking with digital precision to deliver pieces you'll be proud to use and share.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <Badge className="bg-maker-green text-poplar">Veteran Owned</Badge>
-              <Badge className="bg-slate-600 text-poplar">Family Run</Badge>
-            </div>
+        {/* Brand Section - Now at top */}
+        <div className="mb-12">
+          <div className="flex items-start">
+            <img 
+              src={`${import.meta.env.BASE_URL}lovable-uploads/20e3aa72-c1ad-4d05-bf40-4b3d3c9e5cd7.png`}
+              alt="TnKr Workshop Logo" 
+              className="w-[200px] h-[200px] object-contain"
+            />
           </div>
+          <p className="text-poplar/90 mb-6 leading-relaxed">
+            TnKr Workshop is a veteran-owned, family-run business proudly crafting unique home decor and custom wood creations. We blend traditional woodworking with digital precision to deliver pieces you'll be proud to use and share.
+          </p>
+          <div className="flex flex-wrap gap-2">
+            <Badge className="bg-maker-green text-poplar">Veteran Owned</Badge>
+            <Badge className="bg-slate-600 text-poplar">Family Run</Badge>
+          </div>
+        </div>
 
+        <div className="grid lg:grid-cols-3 gap-8">
           {/* Quick Links */}
           <div>
             <h4 className="font-playfair text-xl mb-4">Quick Links</h4>
