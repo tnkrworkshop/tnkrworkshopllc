@@ -21,16 +21,12 @@ const Footer = () => {
         <div className="grid lg:grid-cols-4 gap-8">
           {/* Brand Column */}
           <div className="lg:col-span-1">
-            <div className="flex items-center space-x-2 mb-4">
+            <div className="flex items-center mb-4">
               <img 
                 src={`${import.meta.env.BASE_URL}lovable-uploads/20e3aa72-c1ad-4d05-bf40-4b3d3c9e5cd7.png`}
                 alt="TnKr Workshop Logo" 
                 className="w-12 h-12 object-contain"
               />
-              <div>
-                <h3 className="font-pacifico text-2xl text-oak">TnKr Workshop</h3>
-                <p className="text-sm text-poplar/80">Craft Meets Code</p>
-              </div>
             </div>
             <p className="text-poplar/90 mb-6 leading-relaxed">
               TnKr Workshop is a veteran-owned, family-run business proudly crafting unique basket bases, cutting boards, and custom wood creations. We blend traditional woodworking with digital precision to deliver pieces you'll be proud to use and share.

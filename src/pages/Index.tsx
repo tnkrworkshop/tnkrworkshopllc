@@ -17,16 +17,12 @@ const Index = () => {
       <nav className="bg-maker-blue text-poplar shadow-lg sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center">
               <img 
                 src={`${import.meta.env.BASE_URL}lovable-uploads/20e3aa72-c1ad-4d05-bf40-4b3d3c9e5cd7.png`}
                 alt="TnKr Workshop Logo" 
                 className="w-10 h-10 object-contain"
               />
-              <div>
-                <h1 className="font-pacifico text-xl text-oak">TnKr Workshop</h1>
-                <p className="text-xs text-poplar/80">Craft Meets Code</p>
-              </div>
             </div>
             
             <div className="hidden md:flex items-center space-x-6">
