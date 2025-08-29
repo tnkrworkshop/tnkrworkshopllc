@@ -76,7 +76,7 @@ const HeroSection = () => {
           <div className="relative animate-slide-in">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src={`${import.meta.env.BASE_URL}lovable-uploads/59b76e03-ef7c-433c-b24d-b736b3f85e7c.png`}
+                src="/lovable-uploads/dd0a4eb0-a671-4dc0-a67e-2a189a1dbcf9.png"
                 alt="TnKr Workshop - Handcrafted wooden cutting boards being held in workshop"
                 className="w-full h-full object-cover aspect-[4/3]"
               />
