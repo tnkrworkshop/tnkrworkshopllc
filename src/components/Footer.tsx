@@ -53,7 +53,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><a href="#" className="text-poplar/80 hover:text-oak transition-colors">CNC Wooden Decor</a></li>
               <li><a href="#" className="text-poplar/80 hover:text-oak transition-colors">3D-Printed PLA Decor</a></li>
-              <li><a href="#" className="text-poplar/80 hover:text-oak transition-colors">Hardwood Home Decor</a></li>
+              <li><a href="#" className="text-poplar/80 hover:text-oak transition-colors">Laser-Engraved Decor</a></li>
               <li><a href="mailto:tnkrworkshopllc@gmail.com" className="text-poplar/80 hover:text-oak transition-colors">Custom Designs</a></li>
               <li>
                 <Button 
