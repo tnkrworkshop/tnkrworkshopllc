@@ -58,6 +58,10 @@ const HeroSection = () => {
                 <span>3D Printing</span>
               </div>
               <div className="flex items-center gap-2">
+                <div className="w-2 h-2 bg-cherry rounded-full"></div>
+                <span>Laser Engraving</span>
+              </div>
+              <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-oak rounded-full"></div>
                 <span>Traditional Craft</span>
               </div>
