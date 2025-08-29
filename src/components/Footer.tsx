@@ -6,9 +6,12 @@ import { Mail, Phone, MapPin, ShoppingCart } from "lucide-react";
 
 const Footer = () => {
   const socialLinks = [
-    // Add your actual social media links here when accounts are created
-    // { platform: "Facebook", handle: "@tnkrworkshopllc", url: "https://facebook.com/tnkrworkshopllc" },
-    // { platform: "Instagram", handle: "@tnkrworkshopllc", url: "https://instagram.com/tnkrworkshopllc" },
+    { platform: "Facebook", handle: "@tnkrworkshopllc", url: "https://www.facebook.com/tnkrworkshopllc" },
+    { platform: "Instagram", handle: "@tnkrworkshopllc", url: "https://www.instagram.com/tnkrworkshopllc" },
+    { platform: "Pinterest", handle: "@tnkrworkshopllc", url: "https://www.pinterest.com/tnkrworkshopllc" },
+    { platform: "YouTube", handle: "@tnkrworkshopllc", url: "https://www.youtube.com/@tnkrworkshopllc" },
+    { platform: "X (Twitter)", handle: "@tnkrworkshopllc", url: "https://www.x.com/tnkrworkshopllc" },
+    { platform: "TikTok", handle: "@tnkrworkshopllc", url: "https://www.tiktok.com/@tnkrworkshopllc" }
   ];
 
   return (
