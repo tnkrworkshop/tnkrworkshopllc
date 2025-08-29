@@ -21,7 +21,7 @@ const Index = () => {
               <img 
                 src={`${import.meta.env.BASE_URL}lovable-uploads/20e3aa72-c1ad-4d05-bf40-4b3d3c9e5cd7.png`}
                 alt="TnKr Workshop Logo" 
-                className="w-10 h-10 object-contain"
+                className="w-14 h-14 object-contain"
               />
             </div>
             

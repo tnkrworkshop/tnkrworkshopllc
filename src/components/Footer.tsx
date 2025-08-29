@@ -25,7 +25,7 @@ const Footer = () => {
               <img 
                 src={`${import.meta.env.BASE_URL}lovable-uploads/20e3aa72-c1ad-4d05-bf40-4b3d3c9e5cd7.png`}
                 alt="TnKr Workshop Logo" 
-                className="w-12 h-12 object-contain"
+                className="w-16 h-16 object-contain"
               />
             </div>
             <p className="text-poplar/90 mb-6 leading-relaxed">
