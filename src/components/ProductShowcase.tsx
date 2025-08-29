@@ -8,7 +8,7 @@ const ProductShowcase = () => {
   const products = [
     {
       id: 1,
-      title: "CNC-Carved Wooden Basket Bases",
+      title: "CNC-Carved Wooden Home Decor",
       description: "Precision-carved from premium hardwoods with traditional joinery techniques enhanced by modern CNC technology.",
       features: ["Premium Hardwood", "CNC Precision", "Traditional Design", "Multiple Sizes"],
       icon: Layers,
@@ -16,17 +16,17 @@ const ProductShowcase = () => {
     },
     {
       id: 2,
-      title: "3D-Printed PLA Basket Bases",
-      description: "Lightweight, durable PLA bases perfect for contemporary basket weaving with consistent dimensions and smooth finish.",
+      title: "3D-Printed PLA Home Decor",
+      description: "Lightweight, durable PLA decor perfect for contemporary homes with consistent dimensions and smooth finish.",
       features: ["Eco-Friendly PLA", "Consistent Quality", "Lightweight", "Custom Colors"],
       icon: Palette,
       gradient: "from-stone to-maker-blue"
     },
     {
       id: 3,
-      title: "Premium Hardwood Cutting Boards",
-      description: "Stunning cutting boards featuring contrasting wood inlays, food-safe finishes, and exceptional durability.",
-      features: ["Food-Safe Finish", "Contrasting Inlays", "Premium Woods", "Custom Designs"],
+      title: "Premium Hardwood Home Decor",
+      description: "Stunning home decor pieces featuring contrasting wood inlays, premium finishes, and exceptional durability.",
+      features: ["Premium Finish", "Contrasting Inlays", "Premium Woods", "Custom Designs"],
       icon: Scissors,
       gradient: "from-cherry to-walnut"
     }
@@ -42,7 +42,7 @@ const ProductShowcase = () => {
             <span className="text-maker-blue block">Digital Precision.</span>
           </h2>
           <p className="text-xl text-walnut/80 max-w-3xl mx-auto leading-relaxed">
-            Discover our collection of handcrafted basket bases and cutting boards, 
+            Discover our collection of handcrafted home decor, 
             where traditional woodworking meets modern fabrication technology.
           </p>
         </div>

@@ -78,7 +78,7 @@ const Index = () => {
             Ready to Start Your Next Project?
           </h2>
           <p className="text-xl mb-8 text-poplar/90">
-            Discover our full collection of handcrafted basket bases and cutting boards
+            Discover our full collection of handcrafted home decor
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

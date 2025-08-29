@@ -33,7 +33,7 @@ const HeroSection = () => {
             <p className="text-xl md:text-2xl text-slate-700 mb-8 leading-relaxed">
               Where traditional woodworking meets modern precision. 
               <span className="block mt-2 font-medium text-maker-blue">
-                Handcrafted basket bases and cutting boards, perfected with digital fabrication.
+                Handcrafted home decor, perfected with digital fabrication.
               </span>
             </p>
             
@@ -69,7 +69,7 @@ const HeroSection = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
                 src={`${import.meta.env.BASE_URL}lovable-uploads/dd0a4eb0-a671-4dc0-a67e-2a189a1dbcf9.png`}
-                alt="TnKr Workshop - Handcrafted wooden cutting boards being held in workshop"
+                alt="TnKr Workshop - Handcrafted wooden home decor being held in workshop"
                 className="w-full h-full object-cover aspect-[4/3]"
               />
             </div>

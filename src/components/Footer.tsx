@@ -29,7 +29,7 @@ const Footer = () => {
               />
             </div>
             <p className="text-poplar/90 mb-6 leading-relaxed">
-              TnKr Workshop is a veteran-owned, family-run business proudly crafting unique basket bases, cutting boards, and custom wood creations. We blend traditional woodworking with digital precision to deliver pieces you'll be proud to use and share.
+              TnKr Workshop is a veteran-owned, family-run business proudly crafting unique home decor and custom wood creations. We blend traditional woodworking with digital precision to deliver pieces you'll be proud to use and share.
             </p>
             <div className="flex flex-wrap gap-2">
               <Badge className="bg-maker-green text-poplar">Veteran Owned</Badge>
@@ -51,9 +51,9 @@ const Footer = () => {
           <div>
             <h4 className="font-playfair text-xl mb-4">Our Products</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-poplar/80 hover:text-oak transition-colors">CNC Wooden Bases</a></li>
-              <li><a href="#" className="text-poplar/80 hover:text-oak transition-colors">3D-Printed PLA Bases</a></li>
-              <li><a href="#" className="text-poplar/80 hover:text-oak transition-colors">Hardwood Cutting Boards</a></li>
+              <li><a href="#" className="text-poplar/80 hover:text-oak transition-colors">CNC Wooden Decor</a></li>
+              <li><a href="#" className="text-poplar/80 hover:text-oak transition-colors">3D-Printed PLA Decor</a></li>
+              <li><a href="#" className="text-poplar/80 hover:text-oak transition-colors">Hardwood Home Decor</a></li>
               <li><a href="#" className="text-poplar/80 hover:text-oak transition-colors">Custom Designs</a></li>
               <li>
                 <Button 
