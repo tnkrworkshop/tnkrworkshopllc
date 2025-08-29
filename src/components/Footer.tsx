@@ -6,7 +6,7 @@ import { Mail, Phone, MapPin, ShoppingCart } from "lucide-react";
 
 const Footer = () => {
   const socialLinks = [
-    { platform: "Facebook", handle: "@tnkrworkshopllc", url: "https://www.facebook.com/tnkrworkshopllc" },
+    { platform: "Facebook", handle: "@tnkrworkshopllc", url: "https://www.facebook.com/TnKrWorkshopLLC/" },
     { platform: "Instagram", handle: "@tnkrworkshopllc", url: "https://www.instagram.com/tnkrworkshopllc" },
     { platform: "Pinterest", handle: "@tnkrworkshopllc", url: "https://www.pinterest.com/tnkrworkshopllc" },
     { platform: "YouTube", handle: "@tnkrworkshopllc", url: "https://www.youtube.com/@tnkrworkshopllc" },
