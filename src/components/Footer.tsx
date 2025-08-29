@@ -84,19 +84,22 @@ const Footer = () => {
                 <span className="text-poplar/80">Proudly Made in USA</span>
               </div>
             </div>
+          </div>
+        </div>
 
-            <h5 className="font-medium mb-3">Follow Us</h5>
-            <div className="grid grid-cols-2 gap-2">
-              {socialLinks.map((social) => (
-                <a 
-                  key={social.platform}
-                  href={social.url}
-                  className="text-sm text-poplar/70 hover:text-oak transition-colors"
-                >
-                  {social.platform}
-                </a>
-              ))}
-            </div>
+        {/* Follow Us Section - Centered below links */}
+        <div className="text-center mt-12">
+          <h5 className="font-medium mb-6 text-xl">Follow Us</h5>
+          <div className="flex justify-center flex-wrap gap-6">
+            {socialLinks.map((social) => (
+              <a 
+                key={social.platform}
+                href={social.url}
+                className="text-sm text-poplar/70 hover:text-oak transition-colors"
+              >
+                {social.platform}
+              </a>
+            ))}
           </div>
         </div>
       </div>
