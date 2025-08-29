@@ -30,7 +30,7 @@ const Footer = () => {
           <p className="text-poplar/90 mb-6 leading-relaxed">
             TnKr Workshop is a veteran-owned, family-run business proudly crafting unique home decor and custom wood creations. We blend traditional woodworking with digital precision to deliver pieces you'll be proud to use and share.
           </p>
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2 justify-center">
             <Badge className="bg-maker-green text-poplar">Veteran Owned</Badge>
             <Badge className="bg-slate-600 text-poplar">Family Run</Badge>
           </div>
