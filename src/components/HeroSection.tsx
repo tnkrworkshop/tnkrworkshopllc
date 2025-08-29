@@ -51,7 +51,7 @@ const HeroSection = () => {
             <div className="mt-8 flex items-center justify-center lg:justify-start gap-6 text-sm text-slate-600">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-maker-green rounded-full"></div>
-                <span>CNC Precision</span>
+                <span>CNC Carving</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-maker-blue rounded-full"></div>
