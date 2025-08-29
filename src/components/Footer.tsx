@@ -51,7 +51,7 @@ const Footer = () => {
           <div>
             <h4 className="font-playfair text-xl mb-4">Our Products</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-poplar/80 hover:text-oak transition-colors">CNC Wooden Decor</a></li>
+              <li><a href="#" className="text-poplar/80 hover:text-oak transition-colors">CNC-Carved Decor</a></li>
               <li><a href="#" className="text-poplar/80 hover:text-oak transition-colors">3D-Printed PLA Decor</a></li>
               <li><a href="#" className="text-poplar/80 hover:text-oak transition-colors">Laser-Engraved Decor</a></li>
               <li><a href="mailto:tnkrworkshopllc@gmail.com" className="text-poplar/80 hover:text-oak transition-colors">Custom Designs</a></li>
